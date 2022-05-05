@@ -113,7 +113,7 @@ def insertData(parent, nama, nim, JK, jurusan, hobi):
 
     mydb.commit()
     
-    # Input data disini
+    # Input data di sini
     btn_ok = Button(top, text="Syap!", anchor="s", command=lambda:[top.destroy(), parent.deiconify()])
     btn_ok.pack(padx=10, pady=10)
   
@@ -170,6 +170,7 @@ imgName = os.listdir(path)
 img = []
 i = 0
 for i in imgName:
+    #membaca image + resizing
     img.append(ImageTk.PhotoImage(Image.open("image/" + i).resize((500, 500))))
     imgIdx+=1
 
@@ -178,7 +179,8 @@ def viewFacility():
     global root
     global imgIdx, img
     root.withdraw()
-
+    
+    #user control
     def nextBtn(label):
         global currentIdx
         currentIdx+=1
@@ -199,7 +201,7 @@ def viewFacility():
     currentIdx = 0
     label = Label(frame, image = img[currentIdx]).grid(row = 0, column = 1, padx=5, pady=5)
 
-    # Submit Button
+    # Prev-Next Button
     btn_prev = Button(frame, text="Prev", anchor="s", command=lambda:[prevBtn(label)])
     btn_prev.grid(row=5, column=0, padx=10)
 
