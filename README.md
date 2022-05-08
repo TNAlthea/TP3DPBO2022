@@ -1,6 +1,14 @@
 # TP3DPBO2022
 Repository ini bertujuan untuk memenuhi tugas praktikum 3 pada mata kuliah Desain Pemograman Berorientasi Objek. 
 
+------------------
+
+- Nama : Sabian Annaya Havid
+- Program Studi/Kelas : Ilmu Komputer/C2
+- NIM : 2005021
+
+*Saya Sabian Annaya Havid mengerjakan Tugas Praktikum 3 dalam mata kuliah Desain Pemograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.*
+
 ## Exit
 
 ![Screenshot 2022-05-05 21 06 09](https://user-images.githubusercontent.com/99664611/166942373-8681af03-02de-436f-94a7-4fe6e8098d67.png)
